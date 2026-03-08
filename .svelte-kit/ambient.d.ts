@@ -40,7 +40,6 @@
 declare module '$env/static/private' {
 	export const ACSetupSvcPort: string;
 	export const ALLUSERSPROFILE: string;
-	export const ANTIGRAVITY_AGENT: string;
 	export const ANTIGRAVITY_CLI_ALIAS: string;
 	export const APPDATA: string;
 	export const ChocolateyInstall: string;
@@ -54,11 +53,11 @@ declare module '$env/static/private' {
 	export const ComSpec: string;
 	export const DriverData: string;
 	export const EDITOR: string;
-	export const EFC_36764_1262719628: string;
-	export const EFC_36764_1592913036: string;
-	export const EFC_36764_2283032206: string;
-	export const EFC_36764_2775293581: string;
-	export const EFC_36764_3789132940: string;
+	export const EFC_23656_1262719628: string;
+	export const EFC_23656_1592913036: string;
+	export const EFC_23656_2283032206: string;
+	export const EFC_23656_2775293581: string;
+	export const EFC_23656_3789132940: string;
 	export const FPS_BROWSER_APP_PROFILE_STRING: string;
 	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const HOME: string;
@@ -71,6 +70,7 @@ declare module '$env/static/private' {
 	export const LOGONSERVER: string;
 	export const NODE: string;
 	export const NODE_ENV: string;
+	export const NODE_OPTIONS: string;
 	export const npm_command: string;
 	export const npm_config_cache: string;
 	export const npm_config_globalconfig: string;
@@ -94,7 +94,6 @@ declare module '$env/static/private' {
 	export const OneDrive: string;
 	export const OneDriveConsumer: string;
 	export const OS: string;
-	export const PAGER: string;
 	export const Path: string;
 	export const PATHEXT: string;
 	export const POWERSHELL_DISTRIBUTION_CHANNEL: string;
@@ -121,6 +120,7 @@ declare module '$env/static/private' {
 	export const USERNAME: string;
 	export const USERPROFILE: string;
 	export const VSCODE_INJECTION: string;
+	export const VSCODE_INSPECTOR_OPTIONS: string;
 	export const VSCODE_PYTHON_AUTOACTIVATE_GUARD: string;
 	export const windir: string;
 }
@@ -211,7 +211,6 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		ACSetupSvcPort: string;
 		ALLUSERSPROFILE: string;
-		ANTIGRAVITY_AGENT: string;
 		ANTIGRAVITY_CLI_ALIAS: string;
 		APPDATA: string;
 		ChocolateyInstall: string;
@@ -225,11 +224,11 @@ declare module '$env/dynamic/private' {
 		ComSpec: string;
 		DriverData: string;
 		EDITOR: string;
-		EFC_36764_1262719628: string;
-		EFC_36764_1592913036: string;
-		EFC_36764_2283032206: string;
-		EFC_36764_2775293581: string;
-		EFC_36764_3789132940: string;
+		EFC_23656_1262719628: string;
+		EFC_23656_1592913036: string;
+		EFC_23656_2283032206: string;
+		EFC_23656_2775293581: string;
+		EFC_23656_3789132940: string;
 		FPS_BROWSER_APP_PROFILE_STRING: string;
 		FPS_BROWSER_USER_PROFILE_STRING: string;
 		HOME: string;
@@ -242,6 +241,7 @@ declare module '$env/dynamic/private' {
 		LOGONSERVER: string;
 		NODE: string;
 		NODE_ENV: string;
+		NODE_OPTIONS: string;
 		npm_command: string;
 		npm_config_cache: string;
 		npm_config_globalconfig: string;
@@ -265,7 +265,6 @@ declare module '$env/dynamic/private' {
 		OneDrive: string;
 		OneDriveConsumer: string;
 		OS: string;
-		PAGER: string;
 		Path: string;
 		PATHEXT: string;
 		POWERSHELL_DISTRIBUTION_CHANNEL: string;
@@ -292,6 +291,7 @@ declare module '$env/dynamic/private' {
 		USERNAME: string;
 		USERPROFILE: string;
 		VSCODE_INJECTION: string;
+		VSCODE_INSPECTOR_OPTIONS: string;
 		VSCODE_PYTHON_AUTOACTIVATE_GUARD: string;
 		windir: string;
 		[key: `PUBLIC_${string}`]: undefined;
